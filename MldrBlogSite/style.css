@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: #424242;
+}
+
+
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.app__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+
+.app_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app_logo .app__title{
+    margin-right: 1rem;
+}
+
+.app__links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.app__links li {
+    margin-right: 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.app__links li.active{
+    font-weight: 600;
+    color: #5A47AB;
+}
+
+.app__showcase{
+    display: flex;
+
+}
+
+.app__showcase-info{
+    flex: 6;
+}
+
+
+.app__showcase-info{
+    flex: 4;
+}
+
+
+.app__showcase-info h1, h3{
+    font-size: 52px;
+}
+
+
+.app__showcase-info h1{
+    color: #D05270;
+    font-weight: bold;
+
+}
+
+
+.app__showcase-info h3{
+    font-weight: 500;
+
+}
+
+
+.app__showcase-info p{
+    font-weight: 40;
+    font-size: 18px;
+
+}
+
+.app__showcase-image{
+    flex: 6;
+}
